@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from funcs import get_prcp, get_stations, get_summary_start, get_summary_start_end, get_tobs
+from functions import get_prcp, get_stations, get_summary_start, get_summary_start_end, get_tobs
 
 app = Flask(__name__)
 
